@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-header {
+    background-color: #333; /* Change the color to your desired color */
+    color: white; /* Change the text color to contrast with the background */
+    padding: 10px 20px; /* Adjusted padding */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header-title {
+    font-size: 20px;
+}
+
+.header-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu li {
+    display: inline-block; /* Changed from block to inline-block */
+    margin-left: 10px;
+}
+
+.header-menu li button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.main-content form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.main-content form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide the form into two columns */
+    grid-gap: 20px; /* Increase the gap between columns */
+}
+
+.main-content form input[type="text"],
+.main-content form input[type="date"],
+.main-content form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.main-content form .submit-btn{
+    width: 90%;
+    position: absolute;
+    top: 70%;
+    height: 40px;
+}
+
+.main-content form select {
+    background-color: #fff;
+}
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #ddd;
+}
+/* Button Styles */
+td button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+td button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+.pull-out-content {
+    position: relative;
+    bottom: 50%;
+}
+
+
